@@ -2,7 +2,7 @@
 
 /**
  *main - main block
- *Return: 0
+ *Return: 0 if exited
  */
 int main(void)
 {
