@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #include <stdio.h>                                                              
+=======
+include <stdio.h>
+
+>>>>>>> 4fe221b63b1823a84bd55d73a13f46a1237ed3c7
 /**
  *main - main block
  *Return: 0
