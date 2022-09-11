@@ -1,12 +1,14 @@
-nclude <stdio.h>
-
+#include <stdio.h>                                                              
 /**
- *  * main - prints the phrase with proper grammar,
- *   * but the outcome is a piece of art,
- *    * Return: 0 if exited properly, non-zero otherwise
- *     */
+ *main - main block
+ *Return: 0
+ */
 int main(void)
 {
-		printf("with proper grammar, but the outcome is a piece of art,\n");
-			return (0);
-}
+ printf("Size of a char: %i byte(s)\n", sizeof(char));        
+ printf("Size of an int: %i byte(s)\n", sizeof(int));         
+ printf("size of a long int: %i byte(s\n", sizeof(long int));
+ printf("size of long long int: %i byte(s)\n",sizeof(long long int));
+ printf("size of float: byte(s %i byte(s)\n", sizeof (float));
+ return (0);
+}                   
